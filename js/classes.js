@@ -50,8 +50,10 @@ function CrazyHead(){
   this.height = 160;
   this.frame = 0
   this.img = new Image()
-  this.img.src = './assets/crazyhead.png'
-
+  this.img.src = images[2]
+  this.img.onload = function(){
+    this.draw()
+  }.bind(this)
   this.draw = function(){
     ctx.drawImage(this.img,this.frame * 320,0,this.width,this.height, this.x, this.y,this.width,this.height)
     if(mainmenuframes % 32 === 0)this.frame++

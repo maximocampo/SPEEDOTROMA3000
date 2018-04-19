@@ -2,7 +2,7 @@ var canvas = document.getElementById('main-game');
 var ctx = canvas.getContext('2d')
 
 var audio = ['./assets/speedotromaSong.wav']
-var images =['./assets/player/running.png','./assets/player/runningp2.png']
+var images =['./assets/player/running.png','./assets/player/runningp2.png','./assets/crazyhead.png']
 
 var red = 255
 var green;

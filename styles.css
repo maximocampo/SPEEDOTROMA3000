@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body{
+  background-color: rgb(115, 187, 255);
+  font-family: 'Press Start 2P'
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+#start{
+  font-family: 'Press Start 2P';
+  background: transparent;
+  background-image: url('assets/nube.png');
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 330px;
+  height: 230px;
+  border: none;
+  padding-right: 45px;
+  font-size: 32px;
+  text-align: center
+}
+#start2p{
+  font-family: 'Press Start 2P';
+  background: transparent;
+  background-image: url('assets/nube2p.png');
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  width: 330px;
+  height: 230px;
+  border: none;
+  padding-left: 45px;
+  font-size: 32px;
+  text-align: center
+}
+#gameover{
+  font-family: 'Press Start 2P';
+  background: transparent;
+  background-image: url('assets/nube2p.png');
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  width: 330px;
+  height: 230px;
+  border: none;
+  padding-left: 45px;
+  font-size: 32px;
+  text-align: center
+}
+.displaynone{
+  display:none
+}
+.pause{
+  background-color: red
+}
